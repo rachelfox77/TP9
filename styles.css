@@ -1,0 +1,117 @@
+h4 {
+  margin-bottom: 0;
+  font-family: Times;
+  color: Black;
+  font-size: 13x;
+  font-style: Italic;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 10px;
+  font-style: italic;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+b{
+  color: whitesmoke
+}
+
+mark{ 
+background-color: greenyellow;
+}
+
+
+
+div#crepeHeader {
+  font-family: Serif;
+  color: pink;
+  text-align: center;
+  padding-top: 50vh;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-image:url(https://media.istockphoto.com/photos/arc-de-triomphe-paris-picture-id135034702?b=1&k=20&m=135034702&s=170667a&w=0&h=Y6w6ohcqRzhNQBFyQPCPAUyzzvVbcSLl9Esa2AwUX4o=);
+  
+}
+
+#crepeHeader.tp6 {
+  font-size: 50px;
+    color: white;
+}
+
+
+ul, ol {
+  display: none; 
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
+}
+
+
+/* this is mobile-first CSS for 3 rows */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: inline-block; 
+  width: 100vw;
+  padding: 1vw;
+}
+
+#ingredients {  
+  background-color: red;
+}
+
+#equipment {
+  background-color: white;
+ 
+}
+
+#directions {
+  background-color: blue;
+ 
+}
+
+h4 {
+  font-size: 30px;
+}
+
+#footer {
+  font-size: 10px;
+  color: grey;
+  
+}
+
+/* responsive design */
+@media (orientation:landscape) {
+  
+  div {
+    width: calc(100vw/3 - 1vw);
+    float: left;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+}
